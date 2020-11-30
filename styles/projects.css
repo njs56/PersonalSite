@@ -86,9 +86,12 @@ main h1 {
     font-size: 150%;
 }
 
-#email {
-    float: left;
-    max-width: 5%;
+.int_list, main p {
+    margin: 3%;
+}
+
+.int_list li {
+    list-style-position: inside;
 }
 
 footer p {
