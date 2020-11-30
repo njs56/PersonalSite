@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Nicholas Slamka, IS117-005, Fall 2020 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicholas Slamka's Personal Webpage</title>
+    <link rel="icon" type="image/jpeg" href="../Picture.jpeg">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="../jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Nicholas Slamka's Personal Webpage</h1>
+        <h3>Business Information Systems Major<br>NJIT Class of 2023</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../homepage.html">Home</a></li>
+            <li><a href="personalbio.html">Personal Bio</a></li>
+            <li><a href="resume.html">Resume</a>
+                <ul>
+                    <li><a href="projects.html">Education/Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact</h1>
+        <form id="contact">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="text" class="form-control" id="number" placeholder="(123)456-7890">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea type="text" class="form-control" id="message" rows="5" placeholder="Enter your message here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2020 Nicholas Slamka, Thiells, NY 10984</p>
+    </footer>
+</body>
+</html>

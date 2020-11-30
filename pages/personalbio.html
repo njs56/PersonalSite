@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Nicholas Slamka, IS117-005, Fall 2020 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicholas Slamka's Personal Webpage</title>
+    <link rel="icon" type="image/jpeg" href="../Picture.jpeg">
+    <link rel="stylesheet" href="../styles/personalbio.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="../jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Nicholas Slamka's Personal Webpage</h1>
+        <h3>Business Information Systems Major<br>NJIT Class of 2023</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+
+        <ul>
+            <li><a href="../homepage.html">Home</a></li>
+            <li><a href="personalbio.html">Personal Bio</a></li>
+            <li><a href="resume.html">Resume</a>
+                <ul>
+                    <li><a href="projects.html">Education/Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Personal Biography</h1>
+        <img src="../Picture.jpeg" alt="Personal Photo">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis sapien sit amet quam lacinia, a rutrum urna tincidunt. Nulla et pulvinar elit. Etiam tristique nunc vitae nulla facilisis, sit amet porttitor ante lobortis. Sed sed placerat lacus, ac efficitur nisl. Aenean molestie, enim vel cursus auctor, dui dolor eleifend nisl, at porttitor purus quam vitae nunc. Curabitur venenatis et odio vel lacinia. Sed felis odio, tincidunt in lorem sit amet, pulvinar faucibus erat. Aenean vel elit a neque consectetur maximus. In hac habitasse platea dictumst. Vivamus eu augue metus.
+            <br><br>Integer posuere interdum enim id rhoncus. Vivamus lacinia ullamcorper sapien vitae faucibus. Duis ut mattis ex. Duis placerat diam sed elit porttitor, at dignissim massa porta. In quis tristique ex, ac dapibus ante. Donec facilisis iaculis sem vitae interdum. Sed ante ipsum, ultrices eu erat vel, tempus maximus mi. Mauris congue aliquet sem, ac ullamcorper felis blandit ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eleifend dignissim erat, nec sollicitudin leo efficitur id.
+            <br><br>Phasellus condimentum mauris enim, id venenatis neque vestibulum id. Fusce eu facilisis magna. Mauris non elementum nisl, et sagittis risus. Maecenas nec auctor lorem. Curabitur tincidunt egestas fringilla. Donec eu commodo nunc. Integer non lorem vitae dolor pharetra porta quis eget ex.
+            <br><br>Donec sed porttitor lorem. Pellentesque accumsan elit in erat ullamcorper, in faucibus lacus auctor. Proin in pellentesque enim. Pellentesque in risus libero. Sed consectetur erat id sem iaculis rhoncus. Sed vitae orci augue. Morbi metus ligula, tempus eget ornare id, lacinia in nulla. Maecenas eu scelerisque mi. Ut vitae enim pulvinar, facilisis magna vel, ullamcorper erat. Nullam iaculis sem ut felis tincidunt, quis vestibulum lacus mattis. Nulla facilisi. Pellentesque dignissim sodales lectus, interdum molestie urna pellentesque vel. Praesent euismod, ex eget ultrices maximus, arcu neque sollicitudin risus, eget fringilla velit eros et est.
+            <br><br>Suspendisse viverra cursus nunc, sed feugiat eros ultrices eget. Nunc at risus est. Donec sit amet odio ut turpis ullamcorper interdum. Nam nec urna rhoncus lectus vestibulum rhoncus id in tellus. Praesent eget libero ullamcorper, consectetur nulla at, sodales odio. Nullam feugiat elementum augue, nec dignissim risus. Sed fringilla massa vel erat ornare fermentum eu a diam. Cras pharetra condimentum nunc, ut fermentum nisl finibus id. Proin ornare malesuada leo eget rutrum. Nam euismod sit amet diam ut volutpat. Vivamus efficitur maximus nibh id pretium. Phasellus ut mattis erat, ut faucibus erat.
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2020 Nicholas Slamka, Thiells, NY 10984</p>
+    </footer>
+</body>
+</html>

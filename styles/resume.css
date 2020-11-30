@@ -1,0 +1,109 @@
+/* Nicholas Slamka, IS117-005, Fall 2020 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 99%;
+    max-width: 1024px;
+    margin: 0 auto !important;
+    border: 3px solid black;
+    background-color: white;
+}
+
+html {
+    background-color: tan;
+}
+
+header {
+    border-bottom: 3px solid black;
+    padding: 15px 1.5625%;
+    background: linear-gradient(30deg, aqua 0%, aqua 30%, white 50%, aqua 80%, aqua 100%);
+    font-size: 150%;
+}
+
+header h1, header h3 {
+    text-align: center;
+}
+
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#nav_menu ul li {
+    float: left;
+    width: 25%;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+    float: none;
+}
+
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav_menu ul a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+#mobile_menu {display: none}
+
+a:hover, a:focus {
+    font-style: italic;
+}
+
+main {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    background-color: cornflowerblue;
+    color: white;
+    clear: both;
+    padding: 15px 1.5625%;
+}
+
+@media only screen and (max-width: 959px) {
+    body {font-size: 135%}
+}
+
+@media only screen and (max-width: 767px) {
+    header, footer p {text-align: center}
+    footer p {margin-right: 0}
+    #nav_menu{display: none}
+    #mobile_menu {display: block}
+    .slicknav_menu{background-color: cornflowerblue !important}
+}
+
+@media only screen and (max-width: 479px) {
+    body {font-size: 90%}
+}

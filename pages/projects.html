@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Nicholas Slamka, IS117-005, Fall 2020 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicholas Slamka's Personal Webpage</title>
+    <link rel="icon" type="image/jpeg" href="../Picture.jpeg">
+    <link rel="stylesheet" href="../styles/projects.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="../jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Nicholas Slamka's Personal Webpage</h1>
+        <h3>Business Information Systems Major<br>NJIT Class of 2023</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+
+        <ul>
+            <li><a href="../homepage.html">Home</a></li>
+            <li><a href="personalbio.html">Personal Bio</a></li>
+            <li><a href="resume.html">Resume</a>
+                <ul>
+                    <li><a href="projects.html">Education/Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Projects</h2>
+        <ul class="int_list">
+            <li><u>Rose Memorial Library Expansion:</u> Created a building plan to facilitate the expansion of the Rose Memorial Library in Stony Point, NY to better meet the needs of the local community.</li>
+            <li><u>NRHS Parking Lot Revitalization:</u> Designed a model in order to optimize the parking lot at North Rockland High School in order to improve traffic flow and increase the number of available parking spaces.</li>
+        </ul>
+        <br><br><h2>Education</h2>
+        <p>
+            <b>New Jersey Institute of Technology, Newark, NJ</b>
+            <br>Business Information Systems B.S., May 2023
+            <br>Albert Dorman Honors College
+            <br><br><b>North Rockland High School, Thiells, NY</b>
+            <br>Advanced Regents Diploma, June 2019
+        </p>
+        <br><br><h2>Relevant Coursework</h2>
+        <ul class="int_list">
+            <li>Probability and Statistics</li>
+            <li>Calculus</li>
+            <li>Economics</li>
+            <li>Accounting</li>
+            <li>Introduction to Website Development</li>
+            <li>Internet Applications</li>
+        </ul>
+        <br><br><h2>Leadership Positions</h2>
+        <p>
+            <b>NJIT Student Senate</b>
+            <br>Business Information Systems Student Representative (2020-present)
+            <br><br><b>NJIT Lego Club</b>
+            <br>Co-Founder and Vice President (2020-present)
+            <br><br><b>NRHS Debate Team</b>
+            <br>President (2017-2019)
+            <br>Public Relations Officer (2016-2017)
+            <br><br><b>NRHS Student Leadership Council</b>
+            <br>Student Representative (2017-2019)
+            <br><br><b>NRHS Rambling Raider Newspaper</b>
+            <br>Commentary Editor (2018-2019)
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2020 Nicholas Slamka, Thiells, NY 10984</p>
+    </footer>
+</body>
+</html>

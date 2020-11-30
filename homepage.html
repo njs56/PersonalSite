@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Nicholas Slamka, IS117-005, Fall 2020 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicholas Slamka's Personal Webpage</title>
+    <link rel="icon" type="image/jpeg" href="Picture.jpeg">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Nicholas Slamka's Personal Webpage</h1>
+        <h3>Business Information Systems Major<br>NJIT Class of 2023</h3>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="pages/personalbio.html">Personal Bio</a></li>
+            <li><a href="pages/resume.html">Resume</a>
+                <ul>
+                    <li><a href="pages/projects.html">Education/Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>My name is Nicholas Slamka and I am a student at the New Jersey Institute of Technology currently pursuing and B.S. in Business Information Systems.
+          This site hosts descriptions of work and projects I have completed, experiences I have had, and other important information about myself.</p><br><br>
+    </main>
+    <footer>
+        <p>&copy; 2020 Nicholas Slamka, Thiells, NY 10984</p>
+    </footer>
+</body>
+</html>
