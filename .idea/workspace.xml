@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="">
+    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="project page formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A15/styles/main.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,22 +49,34 @@
       <workItem from="1606239998382" duration="63000" />
       <workItem from="1606240079190" duration="53000" />
       <workItem from="1606698138402" duration="13158000" />
-      <workItem from="1606753743624" duration="19823000" />
+      <workItem from="1606753743624" duration="28828000" />
     </task>
+    <task id="LOCAL-00001" summary="project page formatting">
+      <created>1606776281063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606776281064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project page formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="project page formatting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606702556671">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1606702556671" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606775991077">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606799662822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606775991077" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606799662822" />
     <state x="515" y="239" key="Github.ShareDialog" timestamp="1606775781586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -71,6 +85,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606775792128" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606776287507">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606776287507" />
     <state x="50" y="105" width="934" height="561" key="dock-window-1" timestamp="1606709252104">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

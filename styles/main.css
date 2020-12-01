@@ -8,21 +8,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 99%;
     max-width: 1024px;
     margin: 0 auto !important;
-    border: 3px solid black;
-    background-color: white;
+    background-color: lightsalmon !important;
 }
 
 html {
-    background-color: tan;
+    background: linear-gradient(30deg, lightsalmon 0%, lightsalmon 30%, white 50%, lightsalmon 80%, lightsalmon 100%);
 }
 
 header {
-    border-bottom: 3px solid black;
     padding: 15px 1.5625%;
-    background: linear-gradient(30deg, aqua 0%, aqua 30%, white 50%, aqua 80%, aqua 100%);
+    width: 100%;
+    background: linear-gradient(30deg, orangered 0%, orangered 30%, white 50%, orangered 80%, orangered 100%);
     font-size: 150%;
 }
 
@@ -66,7 +64,7 @@ header h1, header h3 {
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: cornflowerblue;
+    background-color: orangered;
     color: white;
     font-weight: bold;
 }
@@ -86,12 +84,33 @@ main p {
     margin: 2%;
 }
 
+main h2 {
+    text-align: center;
+}
+
+.card {
+    float: none;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 90%;
+    height: 5%;
+    object-fit: cover;
+}
+
+.btn-primary {
+    width: 90%;
+    background-color: orangered !important;
+}
+
 footer p {
     text-align: center;
 }
 
 footer {
-    background-color: cornflowerblue;
+    background-color: orangered;
     color: white;
     clear: both;
     padding: 15px 1.5625%;
@@ -104,9 +123,9 @@ footer {
 @media only screen and (max-width: 767px) {
     header, footer p {text-align: center}
     footer p {margin-right: 0}
-    #nav_menu{display: none}
     #mobile_menu {display: block}
-    .slicknav_menu{background-color: cornflowerblue !important}
+    .card, main h2, #nav_menu {display: none}
+    .slicknav_menu{background-color: orangered !important}
 }
 
 @media only screen and (max-width: 479px) {
