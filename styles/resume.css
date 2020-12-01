@@ -6,102 +6,53 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 99%;
     max-width: 1024px;
     margin: 0 auto !important;
     border: 3px solid black;
-    background-color: white;
 }
 
 html {
     background-color: tan;
 }
 
-header {
+.header {
     border-bottom: 3px solid black;
     padding: 15px 1.5625%;
+    width: 100%;
     background: linear-gradient(30deg, aqua 0%, aqua 30%, white 50%, aqua 80%, aqua 100%);
     font-size: 150%;
-}
-
-header h1, header h3 {
     text-align: center;
-}
-
-#nav_menu ul {
-    list-style: none;
-    position: relative;
-    width: 100%;
-}
-
-#nav_menu ul li {
-    float: left;
-    width: 25%;
-}
-
-#nav_menu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
-
-#nav_menu ul ul li {
-    float: none;
-}
-
-#nav_menu ul li:hover > ul {
-    display: block;
-}
-
-#nav_menu > ul::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-#nav_menu ul a {
-    display: block;
-    text-align: center;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: cornflowerblue;
-    color: white;
-    font-weight: bold;
-}
-
-#mobile_menu {display: none}
-
-a:hover, a:focus {
-    font-style: italic;
 }
 
 main {
     text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: white;
 }
 
-footer p {
-    text-align: center;
-}
-
-footer {
-    background-color: cornflowerblue;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
     color: white;
-    clear: both;
-    padding: 15px 1.5625%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
 }
+
+.mobile {display: none}
 
 @media only screen and (max-width: 959px) {
     body {font-size: 135%}
 }
 
 @media only screen and (max-width: 767px) {
-    header, footer p {text-align: center}
-    footer p {margin-right: 0}
-    #nav_menu{display: none}
-    #mobile_menu {display: block}
-    .slicknav_menu{background-color: cornflowerblue !important}
+    header {text-align: center}
+    .mobile {display: block}
 }
 
 @media only screen and (max-width: 479px) {

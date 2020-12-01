@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="project page formatting">
+    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="cards">
+      <change beforePath="$PROJECT_DIR$/.idea/Personal Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Personal Site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/personalbio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalbio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/personalbio.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/personalbio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/resume.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectId" id="1kcxxIUpNcgcbeXvdUWl7v0ky34" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,7 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../A15/styles/main.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/IS117-BootstrapStarterFiles/css/main.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,7 +61,8 @@
       <workItem from="1606239998382" duration="63000" />
       <workItem from="1606240079190" duration="53000" />
       <workItem from="1606698138402" duration="13158000" />
-      <workItem from="1606753743624" duration="28828000" />
+      <workItem from="1606753743624" duration="28960000" />
+      <workItem from="1606850947158" duration="7817000" />
     </task>
     <task id="LOCAL-00001" summary="project page formatting">
       <created>1606776281063</created>
@@ -58,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606776281064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cards">
+      <created>1606800409718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606800409718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,17 +86,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project page formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="project page formatting" />
+    <MESSAGE value="cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="cards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606702556671">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1606702556671" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606799662822">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606857286900">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606799662822" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606857286900" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606850980174">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606850980174" />
     <state x="515" y="239" key="Github.ShareDialog" timestamp="1606775781586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -85,13 +110,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606775792128" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606776287507">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606800419226">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606776287507" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606800419226" />
     <state x="50" y="105" width="934" height="561" key="dock-window-1" timestamp="1606709252104">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="50" y="105" width="934" height="561" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1606709252104" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606852303618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606852303618" />
   </component>
 </project>
