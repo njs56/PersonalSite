@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="cards">
-      <change beforePath="$PROJECT_DIR$/.idea/Personal Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Personal Site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/personalbio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personalbio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/personalbio.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/personalbio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/resume.css" afterDir="false" />
-    </list>
+    <list default="true" id="d2b65ea8-cccb-4889-ad31-bd70ed26db85" name="Default Changelist" comment="bootstrap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +66,7 @@
       <workItem from="1606240079190" duration="53000" />
       <workItem from="1606698138402" duration="13158000" />
       <workItem from="1606753743624" duration="28960000" />
-      <workItem from="1606850947158" duration="7817000" />
+      <workItem from="1606850947158" duration="8736000" />
     </task>
     <task id="LOCAL-00001" summary="project page formatting">
       <created>1606776281063</created>
@@ -78,16 +82,35 @@
       <option name="project" value="LOCAL" />
       <updated>1606800409718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bootstrap">
+      <created>1606859034279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606859034279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project page formatting" />
     <MESSAGE value="cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="cards" />
+    <MESSAGE value="bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="267" y="19" key="#Inspections" timestamp="1606702556671">
@@ -110,10 +133,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606775792128" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606800419226">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1606859043399">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606800419226" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606859043399" />
     <state x="50" y="105" width="934" height="561" key="dock-window-1" timestamp="1606709252104">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
